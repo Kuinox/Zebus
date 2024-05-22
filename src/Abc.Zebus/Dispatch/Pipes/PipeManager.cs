@@ -7,7 +7,7 @@ using Microsoft.Extensions.Logging;
 
 namespace Abc.Zebus.Dispatch.Pipes;
 
-internal class PipeManager : IPipeManager
+public class PipeManager : IPipeManager
 {
     private static readonly ILogger _logger = ZebusLogManager.GetLogger(typeof(PipeManager));
 

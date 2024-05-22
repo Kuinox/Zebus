@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Abc.Zebus\Abc.Zebus.csproj" />
+    <ProjectReference Include="..\Abc.Zebus.StructureMap\Abc.Zebus.StructureMap.csproj" />
     <ProjectReference Include="..\Abc.Zebus.Persistence.Messages\Abc.Zebus.Persistence.Messages.csproj" PrivateAssets="All" />
   </ItemGroup>
 

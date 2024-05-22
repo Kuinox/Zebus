@@ -2,7 +2,6 @@
 using System.Runtime.InteropServices;
 
 [assembly: ComVisible(false)]
-[assembly: Guid("a287fe42-8da0-46cd-9562-9b35274da061")]
 
 [assembly: InternalsVisibleTo("DynamicProxyGenAssembly2")]
 
@@ -10,8 +9,6 @@ using System.Runtime.InteropServices;
 [assembly: InternalsVisibleTo("Abc.Zebus.Tests")]
 [assembly: InternalsVisibleTo("Abc.Zebus.Integration")]
 [assembly: InternalsVisibleTo("Abc.Zebus.TestTools")]
-
-[assembly: InternalsVisibleTo("Abc.Zebus.StructureMap")]
 
 [assembly: InternalsVisibleTo("Abc.Zebus.Directory")]
 [assembly: InternalsVisibleTo("Abc.Zebus.Directory.Cassandra")]
@@ -36,5 +33,3 @@ using System.Runtime.InteropServices;
 [assembly: InternalsVisibleTo("Abc.Zebus.Saga.Tests")]
 [assembly: InternalsVisibleTo("Abc.ServiceBus.Monitoring.Tests")]
 [assembly: InternalsVisibleTo("Abc.ConfigManagerService.Tests")]
-
-[module: SkipLocalsInit]
