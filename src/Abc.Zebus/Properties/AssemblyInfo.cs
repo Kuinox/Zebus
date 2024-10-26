@@ -12,6 +12,7 @@ using System.Runtime.InteropServices;
 [assembly: InternalsVisibleTo("Abc.Zebus.TestTools")]
 
 [assembly: InternalsVisibleTo("Abc.Zebus.StructureMap")]
+[assembly: InternalsVisibleTo("Abc.Zebus.DependencyInjection")]
 
 [assembly: InternalsVisibleTo("Abc.Zebus.Directory")]
 [assembly: InternalsVisibleTo("Abc.Zebus.Directory.Cassandra")]

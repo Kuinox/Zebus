@@ -2,13 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <PackageId>Zebus.StructureMap</PackageId>
+    <PackageId>Zebus.DependencyInjection</PackageId>
     <Version>$(ZebusVersion)</Version>
   </PropertyGroup>
 
-
   <ItemGroup>
-    <PackageReference Include="structuremap" Version="4.7.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
   </ItemGroup>
 
   <ItemGroup>
